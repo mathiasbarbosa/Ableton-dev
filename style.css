@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 20px;
+}
+
+#iconHome{
+    margin: 20px 0;
+}
+
+.navMenu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.navMenuList{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    margin: 20px 0;
+}
+
+#subMenu{
+    justify-content: flex-end;
+}
+
+
+.navMenuList > li > a{
+    margin: 10px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: black;
+}
+
+
+.sectionImgTitle > img{
+        display: block;
+        margin: auto;
+        width: 1200px;
+        height: 70vh;
+       
+}
+
+#titleHome{
+    font-size: 7rem;
+    color: #fd5948;
+    display: block;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+}
+
+.sectionText{
+    padding: 100px;
+}
+
+.sectionText > p{
+    display: block;
+    width: 50%;
+    margin: auto;
+    
+}
+
+#pBlack{
+    font-size: 2rem;
+    font-style: bold;
+}
+
+#pSecondary{
+    margin-top: 12px ;
+    font-size:1.1rem ;
+}
+
+.sectionGalery{
+    width: 100%;
+    display: flex;
+}
+
+ #imgOne{
+    display: block;
+    margin: auto 0 auto ;
+    position: relative;
+    left: 200px;
+}
+
+.containerPhoto{
+    width: 100%;
+    height: 100vh;
+}
+
+#containerGaleryItemOne{
+    background-color: #fbffa7;
+}
+
+.containerPhoto > img {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 30%;
+    left: 90px;
+}
+
+.sectionVideo{
+    display:flex ;
+    justify-content: center;
+}
+
+#containerGaleryItemTwo{
+    background-color: #b6ffc0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0;
+    
+}
+
+#containerGaleryItemTwo > img{
+    width: 450px;
+    top: 0;
+    left: 0;
+    margin-left: 150px
+}
+
+#imgFIve{
+    display: block;
+    width: 640px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    right: 200px;
+}
